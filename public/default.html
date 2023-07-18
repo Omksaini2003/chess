@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chess</title>
+    <link rel="stylesheet" href="lib/chessboard-0.3.0.min.css">
+    <link rel="stylesheet" href="/default.css" />
+  </head>
+  <body>
+  <div class="mainBox">
+
+    <div class="gameBox">
+        <h2 id="sid"></h2>
+
+        <div id='gameBoard'></div>    
+        <div id="form">
+          <input type="text" id="room">
+          <button onclick=join()> join</button>
+        </div>
+    </div>
+
+      <div class="roomBox">
+        <h2>Available Rooms</h2>
+
+        <button class="room">player 1</button>
+        <button class="room">player 2</button>
+        <button class="room">player 3</button>
+      </div>
+
+  </div>
+  
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="lib/chess.min.js"></script> 
+    <script src="lib/chessboard-0.3.0.min.js"></script> 
+    <script src="lib/jquery-1.11.1.js"></script> 
+    <script src="/default.js"></script>
+  </body>
+</html>

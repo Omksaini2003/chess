@@ -1,0 +1,45 @@
+body {
+	/* overflow-y: auto;
+	display:inline-block;
+	align-items: center;
+    justify-content: center; */
+
+	width: 100%;
+} 
+
+.mainBox{
+	display: flex;
+	margin: 25px;
+	min-width: 700px;
+}
+
+.gameBox{
+	width: 70%;
+	justify-content: center;
+}
+
+
+
+.roomBox{
+	width: 25%;
+}
+
+.room{
+    width: 100%;
+    font-size: larger;
+    padding: 15px 15px;
+    margin-top: 5px;
+    border: 0px;
+}
+
+.room:hover{
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#gameBoard{
+	width: 400px;
+}
+
+
